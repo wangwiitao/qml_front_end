@@ -1,0 +1,6 @@
+module context
+typeinfo appcontext.qmltypes
+prefer :/qt/qml/context/
+Main 254.0 Main.qml
+depends QtQuick
+

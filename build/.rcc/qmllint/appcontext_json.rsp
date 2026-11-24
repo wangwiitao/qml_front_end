@@ -1,0 +1,16 @@
+--bare
+-I
+/Users/wangweitao/Qtcode-new/context/build
+-I
+/Users/wangweitao/Qtcode-new/context/build/context
+-I
+/Users/wangweitao/Qtcode-new/context/build
+-I
+/Users/wangweitao/Qt/6.12.0/macos/qml
+--resource
+/Users/wangweitao/Qtcode-new/context/build/.qt/rcc/qmake_context.qrc
+--resource
+/Users/wangweitao/Qtcode-new/context/build/.qt/rcc/appcontext_raw_qml_0.qrc
+/Users/wangweitao/Qtcode-new/context/Main.qml
+--json
+/Users/wangweitao/Qtcode-new/context/build/appcontext_qmllint.json

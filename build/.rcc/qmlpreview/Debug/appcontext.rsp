@@ -1,0 +1,6 @@
+--interactive
+--resource
+/Users/wangweitao/Qtcode-new/context/build/.qt/rcc/qmake_context.qrc
+--resource
+/Users/wangweitao/Qtcode-new/context/build/.qt/rcc/appcontext_raw_qml_0.qrc
+/Users/wangweitao/Qtcode-new/context/build/appcontext.app/Contents/MacOS/appcontext

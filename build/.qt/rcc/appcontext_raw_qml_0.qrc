@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/context/">
+    <file alias="Main.qml">/Users/wangweitao/Qtcode-new/context/Main.qml</file>
+  </qresource>
+</RCC>
+
