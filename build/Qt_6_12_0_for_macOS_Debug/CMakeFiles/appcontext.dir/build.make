@@ -195,10 +195,24 @@ CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.qt/rcc/qrc_qmake_cont
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.qt/rcc/qrc_qmake_context.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wangweitao/Qtcode-new/context/build/Qt_6_12_0_for_macOS_Debug/.qt/rcc/qrc_qmake_context.cpp -o CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.qt/rcc/qrc_qmake_context.cpp.s
 
+CMakeFiles/appcontext.dir/cppworker.cpp.o: CMakeFiles/appcontext.dir/flags.make
+CMakeFiles/appcontext.dir/cppworker.cpp.o: /Users/wangweitao/Qtcode-new/context/cppworker.cpp
+CMakeFiles/appcontext.dir/cppworker.cpp.o: CMakeFiles/appcontext.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wangweitao/Qtcode-new/context/build/Qt_6_12_0_for_macOS_Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/appcontext.dir/cppworker.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appcontext.dir/cppworker.cpp.o -MF CMakeFiles/appcontext.dir/cppworker.cpp.o.d -o CMakeFiles/appcontext.dir/cppworker.cpp.o -c /Users/wangweitao/Qtcode-new/context/cppworker.cpp
+
+CMakeFiles/appcontext.dir/cppworker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appcontext.dir/cppworker.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wangweitao/Qtcode-new/context/cppworker.cpp > CMakeFiles/appcontext.dir/cppworker.cpp.i
+
+CMakeFiles/appcontext.dir/cppworker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appcontext.dir/cppworker.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wangweitao/Qtcode-new/context/cppworker.cpp -o CMakeFiles/appcontext.dir/cppworker.cpp.s
+
 CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.rcc/qmlcache/appcontext_qmlcache_loader.cpp.o: CMakeFiles/appcontext.dir/flags.make
 CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.rcc/qmlcache/appcontext_qmlcache_loader.cpp.o: .rcc/qmlcache/appcontext_qmlcache_loader.cpp
 CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.rcc/qmlcache/appcontext_qmlcache_loader.cpp.o: CMakeFiles/appcontext.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wangweitao/Qtcode-new/context/build/Qt_6_12_0_for_macOS_Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.rcc/qmlcache/appcontext_qmlcache_loader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wangweitao/Qtcode-new/context/build/Qt_6_12_0_for_macOS_Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.rcc/qmlcache/appcontext_qmlcache_loader.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.rcc/qmlcache/appcontext_qmlcache_loader.cpp.o -MF CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.rcc/qmlcache/appcontext_qmlcache_loader.cpp.o.d -o CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.rcc/qmlcache/appcontext_qmlcache_loader.cpp.o -c /Users/wangweitao/Qtcode-new/context/build/Qt_6_12_0_for_macOS_Debug/.rcc/qmlcache/appcontext_qmlcache_loader.cpp
 
 CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.rcc/qmlcache/appcontext_qmlcache_loader.cpp.i: cmake_force
@@ -212,7 +226,7 @@ CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.rcc/qmlcache/appconte
 CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.rcc/qmlcache/appcontext_Main_qml.cpp.o: CMakeFiles/appcontext.dir/flags.make
 CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.rcc/qmlcache/appcontext_Main_qml.cpp.o: .rcc/qmlcache/appcontext_Main_qml.cpp
 CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.rcc/qmlcache/appcontext_Main_qml.cpp.o: CMakeFiles/appcontext.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wangweitao/Qtcode-new/context/build/Qt_6_12_0_for_macOS_Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.rcc/qmlcache/appcontext_Main_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wangweitao/Qtcode-new/context/build/Qt_6_12_0_for_macOS_Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.rcc/qmlcache/appcontext_Main_qml.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.rcc/qmlcache/appcontext_Main_qml.cpp.o -MF CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.rcc/qmlcache/appcontext_Main_qml.cpp.o.d -o CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.rcc/qmlcache/appcontext_Main_qml.cpp.o -c /Users/wangweitao/Qtcode-new/context/build/Qt_6_12_0_for_macOS_Debug/.rcc/qmlcache/appcontext_Main_qml.cpp
 
 CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.rcc/qmlcache/appcontext_Main_qml.cpp.i: cmake_force
@@ -226,7 +240,7 @@ CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.rcc/qmlcache/appconte
 CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.qt/rcc/qrc_appcontext_raw_qml_0.cpp.o: CMakeFiles/appcontext.dir/flags.make
 CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.qt/rcc/qrc_appcontext_raw_qml_0.cpp.o: .qt/rcc/qrc_appcontext_raw_qml_0.cpp
 CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.qt/rcc/qrc_appcontext_raw_qml_0.cpp.o: CMakeFiles/appcontext.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wangweitao/Qtcode-new/context/build/Qt_6_12_0_for_macOS_Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.qt/rcc/qrc_appcontext_raw_qml_0.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wangweitao/Qtcode-new/context/build/Qt_6_12_0_for_macOS_Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.qt/rcc/qrc_appcontext_raw_qml_0.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.qt/rcc/qrc_appcontext_raw_qml_0.cpp.o -MF CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.qt/rcc/qrc_appcontext_raw_qml_0.cpp.o.d -o CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.qt/rcc/qrc_appcontext_raw_qml_0.cpp.o -c /Users/wangweitao/Qtcode-new/context/build/Qt_6_12_0_for_macOS_Debug/.qt/rcc/qrc_appcontext_raw_qml_0.cpp
 
 CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.qt/rcc/qrc_appcontext_raw_qml_0.cpp.i: cmake_force
@@ -243,6 +257,7 @@ appcontext_OBJECTS = \
 "CMakeFiles/appcontext.dir/main.cpp.o" \
 "CMakeFiles/appcontext.dir/appcontext_qmltyperegistrations.cpp.o" \
 "CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.qt/rcc/qrc_qmake_context.cpp.o" \
+"CMakeFiles/appcontext.dir/cppworker.cpp.o" \
 "CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.rcc/qmlcache/appcontext_qmlcache_loader.cpp.o" \
 "CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.rcc/qmlcache/appcontext_Main_qml.cpp.o" \
 "CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.qt/rcc/qrc_appcontext_raw_qml_0.cpp.o"
@@ -254,6 +269,7 @@ appcontext.app/Contents/MacOS/appcontext: CMakeFiles/appcontext.dir/appcontext_a
 appcontext.app/Contents/MacOS/appcontext: CMakeFiles/appcontext.dir/main.cpp.o
 appcontext.app/Contents/MacOS/appcontext: CMakeFiles/appcontext.dir/appcontext_qmltyperegistrations.cpp.o
 appcontext.app/Contents/MacOS/appcontext: CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.qt/rcc/qrc_qmake_context.cpp.o
+appcontext.app/Contents/MacOS/appcontext: CMakeFiles/appcontext.dir/cppworker.cpp.o
 appcontext.app/Contents/MacOS/appcontext: CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.rcc/qmlcache/appcontext_qmlcache_loader.cpp.o
 appcontext.app/Contents/MacOS/appcontext: CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.rcc/qmlcache/appcontext_Main_qml.cpp.o
 appcontext.app/Contents/MacOS/appcontext: CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.qt/rcc/qrc_appcontext_raw_qml_0.cpp.o
@@ -265,7 +281,7 @@ appcontext.app/Contents/MacOS/appcontext: /Users/wangweitao/Qt/6.12.0/macos/lib/
 appcontext.app/Contents/MacOS/appcontext: /Users/wangweitao/Qt/6.12.0/macos/lib/QtNetwork.framework/Versions/A/QtNetwork
 appcontext.app/Contents/MacOS/appcontext: /Users/wangweitao/Qt/6.12.0/macos/lib/QtCore.framework/Versions/A/QtCore
 appcontext.app/Contents/MacOS/appcontext: CMakeFiles/appcontext.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/wangweitao/Qtcode-new/context/build/Qt_6_12_0_for_macOS_Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable appcontext.app/Contents/MacOS/appcontext"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/wangweitao/Qtcode-new/context/build/Qt_6_12_0_for_macOS_Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable appcontext.app/Contents/MacOS/appcontext"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/appcontext.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

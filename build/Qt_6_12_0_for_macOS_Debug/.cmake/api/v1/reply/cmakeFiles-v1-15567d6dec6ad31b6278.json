@@ -5,489 +5,135 @@
 			"path" : "CMakeLists.txt"
 		},
 		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/qt.toolchain.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeSystem.cmake.in"
+			"isGenerated" : true,
+			"path" : "build/Qt_6_12_0_for_macOS_Debug/.qtcreator/cmake-helper/qtcreator-project.cmake"
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/4.4.5/CMakeSystem.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/qt.toolchain.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeNinjaFindMake.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Platform/Darwin-Initialize.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Platform/Darwin-Determine-CXX.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeCompilerIdDetection.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/Diab-DetermineCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/PellesC-DetermineCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/Renesas-DetermineCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeCXXCompiler.cmake.in"
+			"path" : "build/Qt_6_12_0_for_macOS_Debug/.qtcreator/cmake-helper/package-manager.cmake"
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/4.4.5/CMakeCXXCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInformation.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeGenericSystem.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeInitializeConfigs.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Platform/Darwin.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Platform/UnixPaths.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeCXXInformation.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeLanguageInformation.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/AppleClang-CXX.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/Clang.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/GNU.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Platform/Apple-Clang.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeTestCompilerCommon.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeTestCompilerCommon.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Internal/FeatureTesting.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeCXXCompiler.cmake.in"
+			"path" : "build/Qt_6_12_0_for_macOS_Debug/CMakeFiles/3.30.5/CMakeSystem.cmake"
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/4.4.5/CMakeCXXCompiler.cmake"
+			"path" : "build/Qt_6_12_0_for_macOS_Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/Platform/Darwin-Initialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Qt_6_12_0_for_macOS_Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Linker/AppleClang-CXX.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Linker/AppleClang.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeGenericSystem.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang-CXX.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/Platform/Darwin.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/Platform/UnixPaths.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeCXXCompiler.cmake.in"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/Compiler/AppleClang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/Compiler/Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/Platform/Apple-AppleClang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/Platform/Apple-Clang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/Platform/Apple-Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6Quick/Qt6QuickConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6Quick/Qt6QuickConfigVersionImpl.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -544,42 +190,37 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckFlagCommonConfig.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Internal/CheckCommon.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -732,7 +373,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -741,63 +382,32 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/FindThreads.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/FindThreads.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CheckLibraryExists.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CheckLibraryExists.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Internal/CheckCommon.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CheckIncludeFileCXX.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CheckIncludeFileCXX.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/Internal/CheckCommon.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/FindPackageMessage.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6Quick/Qt6QuickConfigVersion.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6Quick/Qt6QuickConfigVersionImpl.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/FindPackageMessage.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -814,7 +424,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -835,7 +445,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -900,7 +510,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -913,17 +523,17 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/FindPackageMessage.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/FindPackageMessage.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -940,7 +550,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -993,7 +603,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/GNUInstallDirs.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/GNUInstallDirs.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -1006,7 +616,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -1035,7 +645,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -1064,7 +674,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -1093,7 +703,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -1122,7 +732,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -1151,7 +761,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -1192,7 +802,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -1205,27 +815,27 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/FindOpenGL.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/FindOpenGL.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/FindPackageMessage.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/FindPackageMessage.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/FindPackageMessage.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/FindPackageMessage.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -1242,7 +852,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -1263,7 +873,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -1308,7 +918,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -1329,7 +939,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -1350,7 +960,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -1403,7 +1013,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/MacroAddFileDependencies.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/MacroAddFileDependencies.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -1436,7 +1046,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -1461,7 +1071,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -1486,7 +1096,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -1511,7 +1121,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -1536,7 +1146,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -1561,7 +1171,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -1586,7 +1196,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -1611,7 +1221,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -1636,7 +1246,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -1673,7 +1283,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -1694,7 +1304,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -1719,7 +1329,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -1752,7 +1362,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -1785,7 +1395,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -1810,7 +1420,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -1835,7 +1445,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -1860,7 +1470,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -1905,7 +1515,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/GNUInstallDirs.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/GNUInstallDirs.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -1934,7 +1544,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -1959,7 +1569,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -1984,7 +1594,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -2009,7 +1619,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -2034,7 +1644,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -2059,7 +1669,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -2080,7 +1690,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -2121,7 +1731,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -2186,7 +1796,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -2211,7 +1821,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -2236,7 +1846,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -2261,7 +1871,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -2286,7 +1896,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -2311,7 +1921,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -2336,7 +1946,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -2361,7 +1971,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -2386,7 +1996,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -2411,7 +2021,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -2436,7 +2046,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -2461,7 +2071,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -2486,7 +2096,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -2511,7 +2121,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -2536,7 +2146,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -2561,7 +2171,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -2586,7 +2196,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -2611,7 +2221,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -2636,7 +2246,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -2661,7 +2271,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -2686,7 +2296,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -2711,7 +2321,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -2736,7 +2346,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -2761,7 +2371,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -2786,7 +2396,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -2811,7 +2421,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -2836,7 +2446,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -2861,7 +2471,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -2886,7 +2496,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -2911,7 +2521,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -2936,7 +2546,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -2961,7 +2571,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -2986,7 +2596,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3011,7 +2621,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3036,7 +2646,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3061,7 +2671,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3086,7 +2696,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3111,7 +2721,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3136,7 +2746,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3161,7 +2771,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3186,7 +2796,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3211,7 +2821,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3236,7 +2846,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3261,7 +2871,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3286,7 +2896,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3311,7 +2921,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3336,7 +2946,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3361,7 +2971,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3386,7 +2996,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3411,7 +3021,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3436,7 +3046,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3461,7 +3071,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3486,7 +3096,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3511,7 +3121,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3536,7 +3146,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3561,7 +3171,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3586,7 +3196,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3611,7 +3221,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3636,7 +3246,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3661,7 +3271,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3686,7 +3296,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3711,7 +3321,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3736,7 +3346,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3749,7 +3359,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3762,7 +3372,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3775,7 +3385,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3788,7 +3398,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3801,7 +3411,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3814,7 +3424,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3827,7 +3437,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3840,7 +3450,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3853,7 +3463,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3866,7 +3476,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3879,7 +3489,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3892,7 +3502,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3905,7 +3515,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3918,7 +3528,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3931,7 +3541,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3944,7 +3554,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3957,7 +3567,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3970,7 +3580,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3983,7 +3593,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3996,7 +3606,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4009,7 +3619,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4022,7 +3632,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4035,7 +3645,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4048,7 +3658,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4061,7 +3671,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4074,7 +3684,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4087,7 +3697,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4100,7 +3710,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4113,7 +3723,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4126,7 +3736,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4139,7 +3749,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4152,7 +3762,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4165,7 +3775,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4178,7 +3788,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4191,7 +3801,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4204,7 +3814,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4217,7 +3827,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4230,7 +3840,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4243,7 +3853,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4256,7 +3866,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4269,7 +3879,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4282,7 +3892,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4295,7 +3905,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4308,7 +3918,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4321,7 +3931,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4334,7 +3944,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4347,7 +3957,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4360,7 +3970,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4373,7 +3983,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4386,7 +3996,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4399,7 +4009,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4412,7 +4022,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4425,7 +4035,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4438,7 +4048,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4451,7 +4061,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4464,7 +4074,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4477,7 +4087,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4490,7 +4100,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4503,7 +4113,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4516,7 +4126,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4529,7 +4139,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4542,7 +4152,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4555,7 +4165,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4568,7 +4178,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4581,7 +4191,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4594,7 +4204,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4607,7 +4217,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4632,7 +4242,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4657,7 +4267,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4682,7 +4292,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4707,7 +4317,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4732,7 +4342,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4757,7 +4367,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4782,7 +4392,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4807,7 +4417,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4832,7 +4442,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4857,7 +4467,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4882,7 +4492,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4907,7 +4517,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4944,7 +4554,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4985,7 +4595,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -5006,7 +4616,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -5067,7 +4677,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -5118,9 +4728,215 @@
 			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6Quick/Qt6QuickVersionlessAliasTargets.cmake"
 		},
 		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/Qt6ConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/Qt6Config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/QtPublicCMakeIncludeGuardHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/QtPublicCMakeEarlyPolicyHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/Qt6ConfigExtras.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/QtInstallPaths.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/Qt6TargetsPrecheck.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/QtFeature.cmake"
+		},
+		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/share/cmake/Modules/GNUInstallDirs.cmake"
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/QtFeatureCommon.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/QtPublicAndroidHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/QtPublicAppleHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/QtPublicGitHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/QtPublicJsonHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/QtPublicPluginHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/QtPublicPluginHelpers_v2.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/QtPublicSbomAttributionHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/QtPublicSbomBuildToolHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/QtPublicSbomCommonGenerationHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/QtPublicSbomCpeHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/QtPublicSbomCycloneDXHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/QtPublicSbomDocumentNamespaceHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/QtPublicSbomDepHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/QtPublicSbomExternalReferenceHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/QtPublicSbomFileHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/QtPublicSbomGenerationCycloneDXHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/QtPublicSbomHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/QtPublicSbomLicenseHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/QtPublicSbomOpsHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/QtPublicSbomPurlHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/QtPublicSbomPythonHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/QtPublicSbomQtEntityHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/QtPublicSbomRelationshipHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/QtPublicSbomSystemDepHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/QtPublicTargetHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/QtPublicTestHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/QtPublicToolHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/QtPublicWindowsHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/6.12.0/macos/lib/cmake/Qt6/Qt6Dependencies.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Users/wangweitao/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/GNUInstallDirs.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -5140,7 +4956,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/.qt/qml_imports/appcontext_conf.cmake"
+			"path" : "build/Qt_6_12_0_for_macOS_Debug/.qt/qml_imports/appcontext_conf.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -5148,13 +4964,13 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/.qt/info_plist/appcontext/Info.plist"
+			"path" : "build/Qt_6_12_0_for_macOS_Debug/.qt/info_plist/appcontext/Info.plist"
 		}
 	],
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/Users/wangweitao/Qtcode-new/context/build",
+		"build" : "/Users/wangweitao/Qtcode-new/context/build/Qt_6_12_0_for_macOS_Debug",
 		"source" : "/Users/wangweitao/Qtcode-new/context"
 	},
 	"version" : 

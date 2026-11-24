@@ -2,7 +2,6 @@ import QtQuick
 import QtQuick.Layouts
 import QtQuick.Controls.Basic
 
-
 ApplicationWindow {
     id: window
     width: 640
@@ -17,74 +16,37 @@ ApplicationWindow {
     property color reallyLight: "#e7e7e7"
     property color light: "#e0e0e0"
 
-    GridLayout {
-        id: grid
-        columns: width < 400 ? 1 : 2
-        rowSpacing: 0
-        columnSpacing: 0
-        anchors.fill: parent
-
-        Rectangle {
-            id: rectangle1
-            color: window.lightMode ? window.reallyLight : window.reallyDark
-            Layout.fillHeight: true
-            Layout.fillWidth: true
-
-            ColumnLayout {
-                anchors.fill: parent
-                Layout.alignment: Qt.AlignHCenter | Qt.AlignTop
-
-                Label {
-                    id: text1
-                    color: window.lightMode ? window.dark : window.light
-                    font.pixelSize: 120
-                    fontSizeMode: Text.Fit
-                    text: qsTr("Hello World")
-                    Layout.fillWidth: true
-                    Layout.fillHeight: true
-                    Layout.margins: 16
-                    horizontalAlignment: Text.AlignHCenter
-                    verticalAlignment: Text.AlignVCenter
+    Column {
+        spacing: 10
+        anchors.right: parent.right
+        Row {
+            Text {
+                text: "regularMethod"
+            }
+            Button {
+                text: "Call C++ method"
+                onClicked: function () {
+                    BWorker.regularMethod();
                 }
             }
-        }
-
-        Rectangle {
-            id: rectangle2
-            color: window.lightMode ? window.light : window.dark
-            Layout.fillHeight: true
-            Layout.fillWidth: true
-
-            ColumnLayout {
-                anchors.fill: parent
-                Layout.alignment: Qt.AlignHCenter | Qt.AlignTop
-
-                Button {
-                    id: button1
-                    text: window.lightMode ? qsTr("\u263D  Dark mode")
-                                           : qsTr("\u263C  Light mode")
-                    Layout.bottomMargin: 16
-                    Layout.alignment: Qt.AlignHCenter | Qt.AlignBottom
-
-                    contentItem: Text {
-                        text: button1.text
-                        color: window.lightMode ? window.light : window.dark
-                        font: button1.font
-                        horizontalAlignment: Text.AlignHCenter
-                        verticalAlignment: Text.AlignVCenter
-                    }
-
-                    background: Rectangle {
-                        implicitWidth: 120
-                        implicitHeight: 36
-                        radius: 8
-                        color: window.lightMode ? window.dark : window.light
-                    }
-
-                    onClicked: window.lightMode = !window.lightMode
+            Text {
+                text: "regularMethodwithreturn"
+            }
+            Button {
+                text: "Call C++ method"
+                onClicked: function () {
+                    BWorker.regularMethodWithReturn('name', 20);
+                }
+            }
+            Text {
+                text: "slot"
+            }
+            Button {
+                text: "Call C++ method"
+                onClicked: function () {
+                    BWorker.cppSlot();
                 }
             }
         }
     }
-
 }

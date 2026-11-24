@@ -15,6 +15,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/wangweitao/Qtcode-new/context/build/Qt_6_12_0_for_macOS_Debug/.qt/rcc/qrc_qmake_context.cpp" "CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.qt/rcc/qrc_qmake_context.cpp.o" "gcc" "CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.qt/rcc/qrc_qmake_context.cpp.o.d"
   "/Users/wangweitao/Qtcode-new/context/build/Qt_6_12_0_for_macOS_Debug/.rcc/qmlcache/appcontext_Main_qml.cpp" "CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.rcc/qmlcache/appcontext_Main_qml.cpp.o" "gcc" "CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.rcc/qmlcache/appcontext_Main_qml.cpp.o.d"
   "/Users/wangweitao/Qtcode-new/context/build/Qt_6_12_0_for_macOS_Debug/.rcc/qmlcache/appcontext_qmlcache_loader.cpp" "CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.rcc/qmlcache/appcontext_qmlcache_loader.cpp.o" "gcc" "CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.rcc/qmlcache/appcontext_qmlcache_loader.cpp.o.d"
+  "/Users/wangweitao/Qtcode-new/context/cppworker.cpp" "CMakeFiles/appcontext.dir/cppworker.cpp.o" "gcc" "CMakeFiles/appcontext.dir/cppworker.cpp.o.d"
   "/Users/wangweitao/Qtcode-new/context/main.cpp" "CMakeFiles/appcontext.dir/main.cpp.o" "gcc" "CMakeFiles/appcontext.dir/main.cpp.o.d"
   )
 

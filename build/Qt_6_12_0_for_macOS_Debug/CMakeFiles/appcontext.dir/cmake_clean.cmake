@@ -19,6 +19,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.rcc/qmlcache/appcontext_Main_qml.cpp.o.d"
   "CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.rcc/qmlcache/appcontext_qmlcache_loader.cpp.o"
   "CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.rcc/qmlcache/appcontext_qmlcache_loader.cpp.o.d"
+  "CMakeFiles/appcontext.dir/cppworker.cpp.o"
+  "CMakeFiles/appcontext.dir/cppworker.cpp.o.d"
   "CMakeFiles/appcontext.dir/main.cpp.o"
   "CMakeFiles/appcontext.dir/main.cpp.o.d"
   "appcontext.app/Contents/MacOS/appcontext"

@@ -578,6 +578,30 @@ build/Qt_6_12_0_for_macOS_Debug/.rcc/qmlcache/appcontext_qmlcache_loader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appcontext.dir/build.make CMakeFiles/appcontext.dir/build/Qt_6_12_0_for_macOS_Debug/.rcc/qmlcache/appcontext_qmlcache_loader.cpp.s
 .PHONY : build/Qt_6_12_0_for_macOS_Debug/.rcc/qmlcache/appcontext_qmlcache_loader.cpp.s
 
+cppworker.o: cppworker.cpp.o
+.PHONY : cppworker.o
+
+# target to build an object file
+cppworker.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appcontext.dir/build.make CMakeFiles/appcontext.dir/cppworker.cpp.o
+.PHONY : cppworker.cpp.o
+
+cppworker.i: cppworker.cpp.i
+.PHONY : cppworker.i
+
+# target to preprocess a source file
+cppworker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appcontext.dir/build.make CMakeFiles/appcontext.dir/cppworker.cpp.i
+.PHONY : cppworker.cpp.i
+
+cppworker.s: cppworker.cpp.s
+.PHONY : cppworker.s
+
+# target to generate assembly for a file
+cppworker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appcontext.dir/build.make CMakeFiles/appcontext.dir/cppworker.cpp.s
+.PHONY : cppworker.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -653,6 +677,9 @@ help:
 	@echo "... build/Qt_6_12_0_for_macOS_Debug/.rcc/qmlcache/appcontext_qmlcache_loader.o"
 	@echo "... build/Qt_6_12_0_for_macOS_Debug/.rcc/qmlcache/appcontext_qmlcache_loader.i"
 	@echo "... build/Qt_6_12_0_for_macOS_Debug/.rcc/qmlcache/appcontext_qmlcache_loader.s"
+	@echo "... cppworker.o"
+	@echo "... cppworker.i"
+	@echo "... cppworker.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
