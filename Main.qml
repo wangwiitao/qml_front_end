@@ -16,35 +16,41 @@ ApplicationWindow {
     property color reallyLight: "#e7e7e7"
     property color light: "#e0e0e0"
 
-    Column {
-        spacing: 10
-        anchors.right: parent.right
-        Row {
-            Text {
-                text: "regularMethod"
+    Row {
+        Rectangle {
+            id: redRectId
+            width: 100
+            height: 100
+            color: "red"
+            MouseArea {
+                id: redMouseAreaId
+                anchors.fill: parent
             }
-            Button {
-                text: "Call C++ method"
-                onClicked: function () {
-                    BWorker.regularMethod();
+        }
+        Rectangle {
+            id: blueRectId
+            width: 100
+            height: 100
+            color: "blue"
+
+            Connections {
+                target: redMouseAreaId
+
+                function onClicked() {
+                    console.log("blue click");
                 }
             }
-            Text {
-                text: "regularMethodwithreturn"
-            }
-            Button {
-                text: "Call C++ method"
-                onClicked: function () {
-                    BWorker.regularMethodWithReturn('name', 20);
-                }
-            }
-            Text {
-                text: "slot"
-            }
-            Button {
-                text: "Call C++ method"
-                onClicked: function () {
-                    BWorker.cppSlot();
+        }
+        Rectangle {
+            id: greenRectId
+            width: 100
+            height: 100
+            color: "green"
+            Connections {
+                target: redMouseAreaId
+
+                function onClicked() {
+                    console.log("green click");
                 }
             }
         }
