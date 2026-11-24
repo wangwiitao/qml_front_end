@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/">
-    <file alias="/qt/qml/context">/Users/wangweitao/Qtcode-new/context/build/Qt_6_12_0_for_macOS_Debug/context</file>
-
-  </qresource>
-</RCC>
