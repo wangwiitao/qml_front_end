@@ -1,15 +1,15 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
-#include "cppworker.h"
+#include "cppsignalsender.h"
 
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
-    CppWorker cppworker;
+    CppSignalSender sender;
 
     QQmlApplicationEngine engine;
-    engine.rootContext()->setContextProperty("BWorker", &cppworker);
+    engine.rootContext()->setContextProperty("CppSignalSender", &sender);
     QObject::connect(
         &engine,
         &QQmlApplicationEngine::objectCreationFailed,
