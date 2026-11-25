@@ -16,40 +16,34 @@ ApplicationWindow {
     property color reallyLight: "#e7e7e7"
     property color light: "#e0e0e0"
 
-    Connections {
-        target: CppSignalSender
+    Rectangle {
+        id: mRect1
+        width: mText1.implicitWidth + 20
+        height: mText1.implicitHeight + 20
 
-        function onCallQml(parameter) {
-            console.log("This is QML: callQml signal cought.");
-            // body...
-        }
-        function onCppTimer(value) {
-            mRectText.text = value;
+        color: "beige"
+        border.color: "yellowgreen"
+        Text {
+            id: mText1
+            anchors.centerIn: parent
+            text: lastname
+            font.pointSize: 20
         }
     }
-    Column {
-        Rectangle {
-            width: 200
-            height: 200
-            color: "red"
-            radius: 10
-            Text {
-                id: mRectText
-                text: "0"
-                anchors.centerIn: parent
-                color: "white"
-                font.pointSize: 30
-            }
-        }
-        Button {
-            text: "Call C++ button"
-            onClicked: {
-                CppSignalSender.cppSlot();
-            }
-        }
+    Rectangle {
+        id: mRect2
+        anchors.left: mRect1.right
+        anchors.leftMargin: 5
+        width: mText2.implicitWidth + 20
+        height: mText2.implicitHeight + 20
+
+        color: "beige"
+        border.color: "yellowgreen"
         Text {
-            id: mText
-            text: qsTr("Default")
+            id: mText2
+            anchors.centerIn: parent
+            text: firstname
+            font.pointSize: 20
         }
     }
 }

@@ -1,15 +1,26 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
-#include "cppsignalsender.h"
+#include "propertywrapper.h"
 
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
-    CppSignalSender sender;
 
     QQmlApplicationEngine engine;
-    engine.rootContext()->setContextProperty("CppSignalSender", &sender);
+
+    // QString lastName = "Doe";
+    // QString firstName = "John";
+
+    // engine.rootContext()->setContextProperty("lastname", QVariant::fromValue(lastName));
+    // engine.rootContext()->setContextProperty("firstname", QVariant::fromValue(firstName));
+
+    PropertyWrapper wrapper;
+    wrapper.setLastname("Deo");
+    wrapper.setFirstname("John");
+
+    engine.rootContext()->setContextObject(&wrapper);
+
     QObject::connect(
         &engine,
         &QQmlApplicationEngine::objectCreationFailed,
