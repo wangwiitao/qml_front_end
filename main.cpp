@@ -1,7 +1,7 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
-#include "propertywrapper.h"
+#include "qmljscaller.h"
 
 int main(int argc, char *argv[])
 {
@@ -9,17 +9,9 @@ int main(int argc, char *argv[])
 
     QQmlApplicationEngine engine;
 
-    // QString lastName = "Doe";
-    // QString firstName = "John";
+    QmlJsCaller caller;
 
-    // engine.rootContext()->setContextProperty("lastname", QVariant::fromValue(lastName));
-    // engine.rootContext()->setContextProperty("firstname", QVariant::fromValue(firstName));
-
-    PropertyWrapper wrapper;
-    wrapper.setLastname("Deo");
-    wrapper.setFirstname("John");
-
-    engine.rootContext()->setContextObject(&wrapper);
+    engine.rootContext()->setContextProperty("QmlJsCaller", &caller);
 
     QObject::connect(
         &engine,
@@ -29,6 +21,13 @@ int main(int argc, char *argv[])
         { QCoreApplication::exit(-1); },
         Qt::QueuedConnection);
     engine.loadFromModule("context", "Main");
+    auto rootObjects = engine.rootObjects();
+
+    if(engine.rootObjects().isEmpty()){
+        return -1;
+    }else{
+        caller.setQmlRootObject(rootObjects[0]);
+    }
 
     return QGuiApplication::exec();
 }
