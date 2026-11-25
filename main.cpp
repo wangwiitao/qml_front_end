@@ -1,15 +1,17 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
-#include "cppsignalsender.h"
+#include "movie.h"
 
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
-    CppSignalSender sender;
+    Movie movie;
+    movie.setTitle("Tiantic");
+    movie.setMainCharacter("Leonardo D");
 
     QQmlApplicationEngine engine;
-    engine.rootContext()->setContextProperty("CppSignalSender", &sender);
+    engine.rootContext()->setContextProperty("Movie", &movie);
     QObject::connect(
         &engine,
         &QQmlApplicationEngine::objectCreationFailed,

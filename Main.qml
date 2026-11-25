@@ -16,40 +16,55 @@ ApplicationWindow {
     property color reallyLight: "#e7e7e7"
     property color light: "#e0e0e0"
 
-    Connections {
-        target: CppSignalSender
-
-        function onCallQml(parameter) {
-            console.log("This is QML: callQml signal cought.");
-            // body...
-        }
-        function onCppTimer(value) {
-            mRectText.text = value;
-        }
-    }
     Column {
-        Rectangle {
-            width: 200
-            height: 200
-            color: "red"
-            radius: 10
-            Text {
-                id: mRectText
-                text: "0"
-                anchors.centerIn: parent
-                color: "white"
-                font.pointSize: 30
-            }
-        }
-        Button {
-            text: "Call C++ button"
-            onClicked: {
-                CppSignalSender.cppSlot();
-            }
+        spacing: 20
+
+        Text {
+            id: titleId
+            width: 500
+            text: Movie === null ? "" : Movie.title
+            // text:Movie.title
+            font.pointSize: 20
+            anchors.horizontalCenter: parent.horizontalCenter
         }
         Text {
-            id: mText
-            text: qsTr("Default")
+            id: mainCharId
+            width: 500
+            text: Movie === null ? "" : Movie.mainCharacter
+            // text:Movie.maincharacter
+            font.pointSize: 50
+            anchors.horizontalCenter: parent.horizontalCenter
+        }
+        Row {
+            anchors.horizontalCenter: parent.horizontalCenter
+
+            TextField {
+                id: titleTextFieldId
+                width: 300
+            }
+            Button {
+                id: button1
+                width: 200
+                text: "change title"
+                onClicked: {
+                    Movie.title = titleTextFieldId.text;
+                }
+            }
+        }
+        Row {
+            anchors.horizontalCenter: parent.horizontalCenter
+            TextField {
+                id: mainCharTextFieldId
+                width: 300
+            }
+            Button {
+                id: button2
+                width: 200
+                text: "change main character"
+                onClicked: {
+                    Movie.mainCharacter = mainCharTextFieldId.text;
+                }
+            }
         }
     }
 }
