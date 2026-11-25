@@ -6,12 +6,13 @@
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
-    Movie movie;
-    movie.setTitle("Tiantic");
-    movie.setMainCharacter("Leonardo D");
+    // Movie movie;
+    // movie.setTitle("Tiantic");
+    // movie.setMainCharacter("Leonardo D");
+    qmlRegisterType<Movie>("a.b.c",1,0,"Movie");
 
     QQmlApplicationEngine engine;
-    engine.rootContext()->setContextProperty("Movie", &movie);
+    // engine.rootContext()->setContextProperty("Movie", &movie);
     QObject::connect(
         &engine,
         &QQmlApplicationEngine::objectCreationFailed,

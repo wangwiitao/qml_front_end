@@ -1,6 +1,9 @@
 import QtQuick
 import QtQuick.Layouts
 import QtQuick.Controls.Basic
+import a.b.c
+
+// import context
 
 ApplicationWindow {
     id: window
@@ -16,55 +19,27 @@ ApplicationWindow {
     property color reallyLight: "#e7e7e7"
     property color light: "#e0e0e0"
 
-    Column {
-        spacing: 20
-
-        Text {
-            id: titleId
-            width: 500
-            text: Movie === null ? "" : Movie.title
-            // text:Movie.title
-            font.pointSize: 20
-            anchors.horizontalCenter: parent.horizontalCenter
-        }
-        Text {
-            id: mainCharId
-            width: 500
-            text: Movie === null ? "" : Movie.mainCharacter
-            // text:Movie.maincharacter
-            font.pointSize: 50
-            anchors.horizontalCenter: parent.horizontalCenter
-        }
-        Row {
-            anchors.horizontalCenter: parent.horizontalCenter
-
-            TextField {
-                id: titleTextFieldId
-                width: 300
-            }
-            Button {
-                id: button1
-                width: 200
-                text: "change title"
-                onClicked: {
-                    Movie.title = titleTextFieldId.text;
-                }
-            }
-        }
-        Row {
-            anchors.horizontalCenter: parent.horizontalCenter
-            TextField {
-                id: mainCharTextFieldId
-                width: 300
-            }
-            Button {
-                id: button2
-                width: 200
-                text: "change main character"
-                onClicked: {
-                    Movie.mainCharacter = mainCharTextFieldId.text;
-                }
-            }
+    // Movie {
+    //     id: movieId
+    //     title: "Titanic"
+    //     mainCharacter: "Leonardo D"
+    // }
+    // Movie_v2 {
+    //     id: movieId
+    //     title: "Titanic"
+    //     mainCharacter: "Leonardo D"
+    // }
+    Movie {
+        id: movieId
+        title: "Titanic"
+        mainCharacter: "Leonardo D"
+    }
+    Button {
+        text: "Invoke created object"
+        onClicked: {
+            movieId.title = "Fast and Furious";
+            movieId.mainCharacter = "Vin Diesel";
+            console.log("New " + movieId.title + ", " + movieId.mainCharacter);
         }
     }
 }
