@@ -6,5 +6,14 @@ if("${CONFIG}" STREQUAL "" OR "${CONFIG}" STREQUAL "Debug")
   "CMakeFiles/appcontext_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/appcontext_autogen.dir/ParseCache.txt"
   "appcontext_autogen"
+  "movies/CMakeFiles/moviesLib_autogen.dir/AutogenUsed.txt"
+  "movies/CMakeFiles/moviesLib_autogen.dir/ParseCache.txt"
+  "movies/CMakeFiles/moviesLibplugin_autogen.dir/AutogenUsed.txt"
+  "movies/CMakeFiles/moviesLibplugin_autogen.dir/ParseCache.txt"
+  "movies/CMakeFiles/moviesLibplugin_init_autogen.dir/AutogenUsed.txt"
+  "movies/CMakeFiles/moviesLibplugin_init_autogen.dir/ParseCache.txt"
+  "movies/moviesLib_autogen"
+  "movies/moviesLibplugin_autogen"
+  "movies/moviesLibplugin_init_autogen"
   )
 endif()

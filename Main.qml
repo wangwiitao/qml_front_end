@@ -1,7 +1,8 @@
 import QtQuick
 import QtQuick.Layouts
 import QtQuick.Controls.Basic
-import a.b.c
+// import a.b.c
+import movies
 
 // import context
 

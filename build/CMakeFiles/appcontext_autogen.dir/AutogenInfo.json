@@ -1149,15 +1149,7 @@
 	"CROSS_CONFIG" : false,
 	"DEP_FILE" : "/Users/wangweitao/Qtcode-new/context/build/appcontext_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "appcontext_autogen/timestamp",
-	"HEADERS" : 
-	[
-		[
-			"/Users/wangweitao/Qtcode-new/context/cppworker.h",
-			"MU",
-			"EWIEGA46WW/moc_cppworker.cpp",
-			null
-		]
-	],
+	"HEADERS" : [],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/Users/wangweitao/Qtcode-new/context/build/appcontext_autogen/include",
 	"MOC_COMPILATION_FILE" : "/Users/wangweitao/Qtcode-new/context/build/appcontext_autogen/mocs_compilation.cpp",
@@ -1240,7 +1232,6 @@
 	"SETTINGS_FILE" : "/Users/wangweitao/Qtcode-new/context/build/CMakeFiles/appcontext_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/Users/wangweitao/Qtcode-new/context/cppworker.cpp", "MU", null ],
 		[ "/Users/wangweitao/Qtcode-new/context/main.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],

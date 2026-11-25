@@ -1,6 +1,9 @@
 import QtQuick
 import QtQuick.Layouts
 import QtQuick.Controls.Basic
+import a.b.c
+
+// import context
 
 ApplicationWindow {
     id: window
@@ -16,17 +19,27 @@ ApplicationWindow {
     property color reallyLight: "#e7e7e7"
     property color light: "#e0e0e0"
 
-    Column {
-        spacing: 10
-        anchors.right: parent.right
-        Text {
-            text: "regularMethod"
-        }
-        Button {
-            text: "Call C++ method"
-            onClicked: function () {
-                BWorker.regularMethod();
-            }
+    // Movie {
+    //     id: movieId
+    //     title: "Titanic"
+    //     mainCharacter: "Leonardo D"
+    // }
+    // Movie_v2 {
+    //     id: movieId
+    //     title: "Titanic"
+    //     mainCharacter: "Leonardo D"
+    // }
+    Movie {
+        id: movieId
+        title: "Titanic"
+        mainCharacter: "Leonardo D"
+    }
+    Button {
+        text: "Invoke created object"
+        onClicked: {
+            movieId.title = "Fast and Furious";
+            movieId.mainCharacter = "Vin Diesel";
+            console.log("New " + movieId.title + ", " + movieId.mainCharacter);
         }
     }
 }

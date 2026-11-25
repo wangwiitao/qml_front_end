@@ -23,9 +23,9 @@ qt_add_qml_module(appcontext
         Main.qml
         SOURCES cppworker.h cppworker.cpp
         SOURCES cppsignalsender.h cppsignalsender.cpp
-        SOURCES movie.h movie.cpp
-)
 
+)
+add_subdirectory(movies)
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
 # If you are developing for iOS or macOS you should consider setting an
 # explicit, fixed bundle identifier manually though.
@@ -38,7 +38,7 @@ set_target_properties(appcontext PROPERTIES
 )
 
 target_link_libraries(appcontext
-    PRIVATE Qt6::Quick
+    PRIVATE Qt6::Quick moviesLibplugin
 )
 
 install(TARGETS appcontext

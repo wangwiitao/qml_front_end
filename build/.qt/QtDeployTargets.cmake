@@ -1,3 +1,7 @@
-set(__QT_DEPLOY_TARGETS "appcontext")
+set(__QT_DEPLOY_TARGETS "moviesLib;moviesLibplugin;appcontext")
+set(__QT_DEPLOY_TARGET_moviesLib_FILE /Users/wangweitao/Qtcode-new/context/build/movies/libmoviesLib.a)
+set(__QT_DEPLOY_TARGET_moviesLib_TYPE STATIC_LIBRARY)
+set(__QT_DEPLOY_TARGET_moviesLibplugin_FILE /Users/wangweitao/Qtcode-new/context/build/movies/libmoviesLibplugin.a)
+set(__QT_DEPLOY_TARGET_moviesLibplugin_TYPE STATIC_LIBRARY)
 set(__QT_DEPLOY_TARGET_appcontext_FILE /Users/wangweitao/Qtcode-new/context/build/appcontext.app/Contents/MacOS/appcontext)
 set(__QT_DEPLOY_TARGET_appcontext_TYPE EXECUTABLE)
