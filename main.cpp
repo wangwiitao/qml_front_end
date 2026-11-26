@@ -1,15 +1,16 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
-#include "cppworker.h"
+#include "mysingleton.h"
 
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
-    CppWorker cppworker;
 
+    MySingleton *singleton = new MySingleton(&app);
+    qmlRegisterSingletonInstance("wwt.wwt.wwt", 1, 0, "MySingleton", singleton);
     QQmlApplicationEngine engine;
-    engine.rootContext()->setContextProperty("BWorker", &cppworker);
+
     QObject::connect(
         &engine,
         &QQmlApplicationEngine::objectCreationFailed,
