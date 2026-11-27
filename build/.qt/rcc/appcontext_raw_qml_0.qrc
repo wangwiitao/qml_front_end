@@ -1,6 +1,6 @@
 <RCC>
   <qresource prefix="/qt/qml/context/">
-    <file alias="Main.qml">/Users/wangweitao/Qtcode-new/context/Main.qml</file>
+    <file alias="Main.qml">F:/WT_remote/qml_front_end/Main.qml</file>
   </qresource>
 </RCC>
 

@@ -1,9 +1,9 @@
 
 set(target "appcontext")
-set(working_dir "/Users/wangweitao/Qtcode-new/context")
+set(working_dir "F:/WT_remote/qml_front_end")
 set(src_and_dest_list
-    "/Users/wangweitao/Qtcode-new/context/Main.qml"
-    "/Users/wangweitao/Qtcode-new/context/build/context/Main.qml"
+    "F:/WT_remote/qml_front_end/Main.qml"
+    "F:/WT_remote/qml_front_end/build/context/Main.qml"
 
 )
-set(timestamp_file "/Users/wangweitao/Qtcode-new/context/build/.qt/appcontext_qml.txt")
+set(timestamp_file "F:/WT_remote/qml_front_end/build/.qt/appcontext_qml.txt")

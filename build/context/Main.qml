@@ -1,6 +1,7 @@
 import QtQuick
 import QtQuick.Layouts
 import QtQuick.Controls.Basic
+import wwt.wwt.wwt
 
 ApplicationWindow {
     id: window
@@ -16,17 +17,11 @@ ApplicationWindow {
     property color reallyLight: "#e7e7e7"
     property color light: "#e0e0e0"
 
-    Column {
-        spacing: 10
-        anchors.right: parent.right
-        Text {
-            text: "regularMethod"
-        }
-        Button {
-            text: "Call C++ method"
-            onClicked: function () {
-                BWorker.regularMethod();
-            }
+    Button {
+        id: buttonId
+        text: "Click"
+        onClicked: function () {
+            MySingleton.doSomething();
         }
     }
 }
