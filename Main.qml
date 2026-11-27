@@ -1,9 +1,8 @@
 import QtQuick
 import QtQuick.Layouts
 import QtQuick.Controls.Basic
-import a.b.c
 
-// import context
+import context
 
 ApplicationWindow {
     id: window
@@ -19,27 +18,28 @@ ApplicationWindow {
     property color reallyLight: "#e7e7e7"
     property color light: "#e0e0e0"
 
-    // Movie {
-    //     id: movieId
-    //     title: "Titanic"
-    //     mainCharacter: "Leonardo D"
-    // }
-    // Movie_v2 {
-    //     id: movieId
-    //     title: "Titanic"
-    //     mainCharacter: "Leonardo D"
-    // }
-    Movie {
-        id: movieId
-        title: "Titanic"
-        mainCharacter: "Leonardo D"
+    CppClass {
+        id: cppClassId
+    }
+
+    Button {
+        id: button1Id
+        text: "Send to C++"
+        onClicked: function () {
+            var arr = ["Apple", "Banana", "Peer", "Orange"];
+            cppClassId.qmlArrayToCpp(arr);
+        }
     }
     Button {
-        text: "Invoke created object"
-        onClicked: {
-            movieId.title = "Fast and Furious";
-            movieId.mainCharacter = "Vin Diesel";
-            console.log("New " + movieId.title + ", " + movieId.mainCharacter);
+        id: button2Id
+        anchors.top: button1Id.bottom
+        text: "Read to C++"
+        onClicked: function () {
+            let temp = cppClassId.retrieveStrings();
+            console.log(temp);
+            temp.forEach(item => {
+                console.log(item);
+            });
         }
     }
 }

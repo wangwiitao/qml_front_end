@@ -1,7 +1,7 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
-#include "movie.h"
+// #include "movie.h"
 
 int main(int argc, char *argv[])
 {
@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
     // Movie movie;
     // movie.setTitle("Tiantic");
     // movie.setMainCharacter("Leonardo D");
-    qmlRegisterType<Movie>("a.b.c",1,0,"Movie");
+    // qmlRegisterType<Movie>("a.b.c",1,0,"Movie");
 
     QQmlApplicationEngine engine;
     // engine.rootContext()->setContextProperty("Movie", &movie);
