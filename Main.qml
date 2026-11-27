@@ -1,7 +1,7 @@
 import QtQuick
 import QtQuick.Layouts
 import QtQuick.Controls.Basic
-import wwt.wwt.wwt
+import context
 
 ApplicationWindow {
     id: window
@@ -17,11 +17,28 @@ ApplicationWindow {
     property color reallyLight: "#e7e7e7"
     property color light: "#e0e0e0"
 
+    CppClass {
+        id: cppClassId
+
+        onSendInt: function (param) {
+            console.log("Received int: " + param + ",type is : " + typeof param);
+        }
+
+        onSendDouble: function (doubleParam) {
+            console.log("Received double: " + doubleParam + ",type is : " + typeof doubleParam);
+        }
+
+        onSendBoolRealFloat: (boolparam, realparam, floatparam) => {
+            console.log("Received bool :" + boolparam + typeof boolparam);
+            console.log("Received real :" + realparam + typeof realparam);
+            console.log("Received float :" + floatparam + typeof floatparam);
+        }
+    }
     Button {
         id: buttonId
-        text: "Click"
-        onClicked: function () {
-            MySingleton.doSomething();
+        text: "Click me"
+        onClicked: {
+            cppClassId.cppSlot();
         }
     }
 }

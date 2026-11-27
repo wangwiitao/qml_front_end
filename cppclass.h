@@ -11,9 +11,10 @@ class CppClass : public QObject
 public:
     explicit CppClass(QObject *parent = nullptr);
 
-
 signals:
     void sendInt(int parama);
+    void sendDouble(double param);
+    void sendBoolRealFloat(bool boolparam, qreal realparam, float floatparam);
 
 public slots:
     void cppSlot();
