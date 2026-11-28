@@ -4,28 +4,44 @@
 #include <QJsonArray>
 #include <QJsonObject>
 #include <QDebug>
+#include <QRestReply>
 #include "appwrapper.h"
 
 AppWrapper::AppWrapper(QObject *parent) : QObject(parent),
-                                          mNetManager(std::make_unique<QNetworkAccessManager>()) // Use make_unique
+                                          m_rest_access_manager(std::make_unique<QRestAccessManager>(&net_manager)),
+                                          m_factory(std::make_unique<QNetworkRequestFactory>())
 {
+    // Setting the base url here makes it a bit more explicit. But you can also set it up in the constructor of the factory.
+    m_factory->setBaseUrl(QUrl("https://jsonplaceholder.typicode.com"));
 }
-
 AppWrapper::~AppWrapper()
 {
 }
 
 void AppWrapper::fetchPosts()
 {
-    // Initialize our API data
-    const QUrl API_ENDPOINT("https://jsonplaceholder.typicode.com/posts");
+    // Set up a GET request
+    m_rest_access_manager->get(m_factory->createRequest("/posts"), this, [this](QRestReply &reply)
+                               {
+        if(reply.isSuccess()){
+            //Turn the data into a json document
+             auto doc = reply.readJson();
 
-    QNetworkRequest request;
-    request.setUrl(API_ENDPOINT);
+            //Turn document into json array: Have to read the value from an std::optional object returned from doc.
+             QJsonArray array = doc.value().array();
 
-    mNetReply = mNetManager->get(request);
-    connect(mNetReply, &QIODevice::readyRead, this, &AppWrapper::dataReadyRead);
-    connect(mNetReply, &QNetworkReply::finished, this, &AppWrapper::dataReadFinished);
+            for ( int i = 0; i < array.size(); i++)
+            {
+                QJsonObject object = array.at(i).toObject();
+                QVariantMap map = object.toVariantMap();
+                QString title = map["title"].toString();
+                mPosts.append(title);
+            }
+
+            if(array.size() !=0){
+                resetModel();
+            }
+        } });
 }
 
 void AppWrapper::removeLast()
@@ -62,48 +78,48 @@ bool AppWrapper::initialize(QGuiApplication *app)
     return !mEngine.rootObjects().isEmpty();
 }
 
-void AppWrapper::dataReadyRead()
-{
-    mDataBuffer.append(mNetReply->readAll());
-}
+// void AppWrapper::dataReadyRead()
+// {
+//     mDataBuffer.append(mNetReply->readAll());
+// }
 
-void AppWrapper::dataReadFinished()
-{
-    // Parse the JSON
-    if (mNetReply->error())
-    {
-        qDebug() << "Error : " << mNetReply->errorString();
-    }
-    else
-    {
-        // qDebug() << "Data fetch finished : " << QString(*mDataBuffer);
+// void AppWrapper::dataReadFinished()
+// {
+//     // Parse the JSON
+//     if (mNetReply->error())
+//     {
+//         qDebug() << "Error : " << mNetReply->errorString();
+//     }
+//     else
+//     {
+//         // qDebug() << "Data fetch finished : " << QString(*mDataBuffer);
 
-        // Turn the data into a json document
-        QJsonDocument doc = QJsonDocument::fromJson(mDataBuffer);
+//         // Turn the data into a json document
+//         QJsonDocument doc = QJsonDocument::fromJson(mDataBuffer);
 
-        /*
-            //What if you get an object from the server
-            QJsonDocument objectDoc = QJsonDocument::fromJson(*mDataBuffer);
-            QJsonObject obObject = objectDoc.toVariant().toJsonObject();
-            */
+//         /*
+//             //What if you get an object from the server
+//             QJsonDocument objectDoc = QJsonDocument::fromJson(*mDataBuffer);
+//             QJsonObject obObject = objectDoc.toVariant().toJsonObject();
+//             */
 
-        // Turn document into json array
-        QJsonArray array = doc.array();
-        for (int i = 0; i < array.size(); i++)
-        {
-            QJsonObject object = array.at(i).toObject();
-            QVariantMap map = object.toVariantMap();
-            QString title = map["title"].toString();
-            mPosts.append(title);
-        }
-        if (array.size() != 0)
-        {
-            resetModel();
-        }
-        // Clear the buffer
-        mDataBuffer.clear();
-    }
-}
+//         // Turn document into json array
+//         QJsonArray array = doc.array();
+//         for (int i = 0; i < array.size(); i++)
+//         {
+//             QJsonObject object = array.at(i).toObject();
+//             QVariantMap map = object.toVariantMap();
+//             QString title = map["title"].toString();
+//             mPosts.append(title);
+//         }
+//         if (array.size() != 0)
+//         {
+//             resetModel();
+//         }
+//         // Clear the buffer
+//         mDataBuffer.clear();
+//     }
+// }
 
 void AppWrapper::resetModel()
 {
