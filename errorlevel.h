@@ -3,11 +3,14 @@
 
 #include <QObject>
 
-class ErrorLevel : public QObject
+// class ErrorLevel : public QObject
+class ErrorLevel
 {
-    Q_OBJECT
+    // Q_OBJECT
+    Q_GADGET
 public:
-    explicit ErrorLevel(QObject *parent = nullptr);
+    // explicit ErrorLevel(QObject *parent = nullptr);
+    explicit ErrorLevel();
 
     enum ErrorValue{
         INFORMATION,
@@ -17,7 +20,7 @@ public:
     };
     Q_ENUM(ErrorValue);
 
-signals:
+// signals:
 };
 
 #endif // ERRORLEVEL_H
