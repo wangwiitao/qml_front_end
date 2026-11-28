@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/">
-    <file alias="/qt/qml/context">/Users/wangweitao/Qtcode-new/context/build/context</file>
-
-  </qresource>
-</RCC>
