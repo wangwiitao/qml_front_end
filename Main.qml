@@ -18,13 +18,17 @@ ApplicationWindow {
     property color reallyLight: "#e7e7e7"
     property color light: "#e0e0e0"
 
+    FetchPosts {
+        id: fetcherId
+    }
+
     ColumnLayout {
         anchors.fill: parent
         spacing: 0
 
         ListView {
             id: mListView
-            model: myModel
+            model: fetcherId.posts
             delegate: Rectangle {
 
                 width: root.width
@@ -54,7 +58,7 @@ ApplicationWindow {
             text: "Fetch"
             Layout.fillWidth: true
             onClicked: {
-                Wrapper.fetchPosts();
+                fetcherId.fetchPosts();
             }
         }
         Button {
@@ -62,7 +66,7 @@ ApplicationWindow {
             text: "RemoveLast"
             Layout.fillWidth: true
             onClicked: {
-                Wrapper.removeLast();
+                fetcherId.removeLast();
             }
         }
     }

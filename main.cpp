@@ -1,7 +1,7 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
-#include "appwrapper.h"
+// #include "appwrapper.h"
 
 int main(int argc, char *argv[])
 {
@@ -9,21 +9,21 @@ int main(int argc, char *argv[])
 
     QQmlApplicationEngine engine;
 
-    AppWrapper wrapper;
+    // AppWrapper wrapper;
 
-    if (!wrapper.initialize(&app))
-    {
-        return -1;
-    };
+    // if (!wrapper.initialize(&app))
+    // {
+    //     return -1;
+    // };
 
-    // QObject::connect(
-    //     &engine,
-    //     &QQmlApplicationEngine::objectCreationFailed,
-    //     &app,
-    //     []()
-    //     { QCoreApplication::exit(-1); },
-    //     Qt::QueuedConnection);
-    // engine.loadFromModule("context", "Main");
+    QObject::connect(
+        &engine,
+        &QQmlApplicationEngine::objectCreationFailed,
+        &app,
+        []()
+        { QCoreApplication::exit(-1); },
+        Qt::QueuedConnection);
+    engine.loadFromModule("context", "Main");
 
     return QGuiApplication::exec();
 }
