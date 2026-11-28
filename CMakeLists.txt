@@ -21,6 +21,7 @@ qt_add_qml_module(appcontext
     URI context
     QML_FILES
         Main.qml
+        SOURCES errorlevel.h errorlevel.cpp
 
 )
 

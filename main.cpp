@@ -1,20 +1,14 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
-// #include "appwrapper.h"
+#include "errorlevel.h"
 
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
 
     QQmlApplicationEngine engine;
-
-    // AppWrapper wrapper;
-
-    // if (!wrapper.initialize(&app))
-    // {
-    //     return -1;
-    // };
+    qmlRegisterUncreatableType<ErrorLevel>("a.b.c",1,0,"ErrorLevel","Can not create ErrorLevel type in QML. Not allowed.");
 
     QObject::connect(
         &engine,
