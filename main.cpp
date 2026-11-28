@@ -1,18 +1,15 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
-// #include "movie.h"
+#include "cppclass.h"
 
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
-    // Movie movie;
-    // movie.setTitle("Tiantic");
-    // movie.setMainCharacter("Leonardo D");
-    // qmlRegisterType<Movie>("a.b.c",1,0,"Movie");
 
     QQmlApplicationEngine engine;
-    // engine.rootContext()->setContextProperty("Movie", &movie);
+    CppClass cppclass;
+    engine.rootContext()->setContextProperty("CppClass", &cppclass);
     QObject::connect(
         &engine,
         &QQmlApplicationEngine::objectCreationFailed,
@@ -21,6 +18,15 @@ int main(int argc, char *argv[])
         { QCoreApplication::exit(-1); },
         Qt::QueuedConnection);
     engine.loadFromModule("context", "Main");
+
+    if (engine.rootObjects().isEmpty())
+    {
+        return -1;
+    }
+    else
+    {
+        cppclass.setQmlRootObject(engine.rootObjects().first());
+    }
 
     return QGuiApplication::exec();
 }

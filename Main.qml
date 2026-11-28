@@ -18,28 +18,64 @@ ApplicationWindow {
     property color reallyLight: "#e7e7e7"
     property color light: "#e0e0e0"
 
-    CppClass {
-        id: cppClassId
+    function arrayObjectFunc(arr, obj) {
+        console.log("-----Printing array----");
+        arr.forEach(function (ele) {
+            console.log("Array item :" + ele);
+        });
+
+        console.log("------Printing object ---");
+        for (let mKey in obj) {
+            console.log("Object[" + mKey + "] :" + obj[mKey]);
+        }
     }
+
+    // CppClass {
+    //     id: cppClassId
+    // }
 
     Button {
         id: button1Id
-        text: "Send to C++"
-        onClicked: function () {
-            var arr = ["Apple", "Banana", "Peer", "Orange"];
-            cppClassId.qmlArrayToCpp(arr);
+        text: "call qml fn"
+        onClicked: {
+            let arr = ['Africa', 'Asia', 'Europe', 'North America', 'Sourth America', 'Oceania', 'Antarctica'];
+            let obj = {
+                firstName: "John",
+                lastName: "Doe",
+                location: "Earth"
+            };
+            CppClass.passFromQmlToCpp(arr, obj);
+        }
+    }
+
+    Button {
+        id: button2Id
+        text: "GetVariantListFromCpp"
+        anchors.top: button1Id.bottom
+        onClicked: {
+            let data = CppClass.getVariantListFromCpp();
+            data.forEach(function (ele) {
+                console.log("Array item : " + ele);
+            });
         }
     }
     Button {
-        id: button2Id
-        anchors.top: button1Id.bottom
-        text: "Read to C++"
-        onClicked: function () {
-            let temp = cppClassId.retrieveStrings();
-            console.log(temp);
-            temp.forEach(item => {
-                console.log(item);
-            });
+        id: button3Id
+        text: "GetVariantMapFromCpp"
+        anchors.top: button2Id.bottom
+        onClicked: {
+            let data = CppClass.getVariantMapFromCpp();
+            for (let mKey in data) {
+                console.log("Object[" + mKey + "] :" + data[mKey]);
+            }
+        }
+    }
+    Button {
+        id: button4Id
+        text: "GetVariantMapFromCpp"
+        anchors.top: button3Id.bottom
+        onClicked: {
+            CppClass.triggerJSCall();
         }
     }
 }
