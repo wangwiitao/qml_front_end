@@ -2,7 +2,7 @@ import QtQuick
 import QtQuick.Layouts
 import QtQuick.Controls.Basic
 
-import context
+// import context
 
 ApplicationWindow {
     id: root
