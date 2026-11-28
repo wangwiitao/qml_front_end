@@ -5,7 +5,7 @@ import QtQuick.Controls.Basic
 import context
 
 ApplicationWindow {
-    id: window
+    id: root
     width: 640
     height: 480
     minimumWidth: 200
@@ -18,64 +18,52 @@ ApplicationWindow {
     property color reallyLight: "#e7e7e7"
     property color light: "#e0e0e0"
 
-    function arrayObjectFunc(arr, obj) {
-        console.log("-----Printing array----");
-        arr.forEach(function (ele) {
-            console.log("Array item :" + ele);
-        });
+    ColumnLayout {
+        anchors.fill: parent
+        spacing: 0
 
-        console.log("------Printing object ---");
-        for (let mKey in obj) {
-            console.log("Object[" + mKey + "] :" + obj[mKey]);
+        ListView {
+            id: mListView
+            model: myModel
+            delegate: Rectangle {
+
+                width: root.width
+                height: textId.implicitHeight + 30
+                color: "beige"
+                border.color: "yellowgreen"
+                radius: 5
+
+                Text {
+                    id: textId
+                    width: parent.width
+                    height: parent.height
+                    anchors.centerIn: parent
+                    text: modelData
+                    font.pointSize: 13
+                    wrapMode: Text.WordWrap
+                    verticalAlignment: Text.AlignVCenter
+                    horizontalAlignment: Text.AlignHCenter
+                }
+            }
+            Layout.fillHeight: true
+            Layout.fillWidth: true
         }
-    }
 
-    // CppClass {
-    //     id: cppClassId
-    // }
-
-    Button {
-        id: button1Id
-        text: "call qml fn"
-        onClicked: {
-            let arr = ['Africa', 'Asia', 'Europe', 'North America', 'Sourth America', 'Oceania', 'Antarctica'];
-            let obj = {
-                firstName: "John",
-                lastName: "Doe",
-                location: "Earth"
-            };
-            CppClass.passFromQmlToCpp(arr, obj);
-        }
-    }
-
-    Button {
-        id: button2Id
-        text: "GetVariantListFromCpp"
-        anchors.top: button1Id.bottom
-        onClicked: {
-            let data = CppClass.getVariantListFromCpp();
-            data.forEach(function (ele) {
-                console.log("Array item : " + ele);
-            });
-        }
-    }
-    Button {
-        id: button3Id
-        text: "GetVariantMapFromCpp"
-        anchors.top: button2Id.bottom
-        onClicked: {
-            let data = CppClass.getVariantMapFromCpp();
-            for (let mKey in data) {
-                console.log("Object[" + mKey + "] :" + data[mKey]);
+        Button {
+            id: button1Id
+            text: "Fetch"
+            Layout.fillWidth: true
+            onClicked: {
+                Wrapper.fetchPosts();
             }
         }
-    }
-    Button {
-        id: button4Id
-        text: "GetVariantMapFromCpp"
-        anchors.top: button3Id.bottom
-        onClicked: {
-            CppClass.triggerJSCall();
+        Button {
+            id: button2Id
+            text: "RemoveLast"
+            Layout.fillWidth: true
+            onClicked: {
+                Wrapper.removeLast();
+            }
         }
     }
 }

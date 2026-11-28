@@ -1,32 +1,29 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
-#include "cppclass.h"
+#include "appwrapper.h"
 
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
 
     QQmlApplicationEngine engine;
-    CppClass cppclass;
-    engine.rootContext()->setContextProperty("CppClass", &cppclass);
-    QObject::connect(
-        &engine,
-        &QQmlApplicationEngine::objectCreationFailed,
-        &app,
-        []()
-        { QCoreApplication::exit(-1); },
-        Qt::QueuedConnection);
-    engine.loadFromModule("context", "Main");
 
-    if (engine.rootObjects().isEmpty())
+    AppWrapper wrapper;
+
+    if (!wrapper.initialize(&app))
     {
         return -1;
-    }
-    else
-    {
-        cppclass.setQmlRootObject(engine.rootObjects().first());
-    }
+    };
+
+    // QObject::connect(
+    //     &engine,
+    //     &QQmlApplicationEngine::objectCreationFailed,
+    //     &app,
+    //     []()
+    //     { QCoreApplication::exit(-1); },
+    //     Qt::QueuedConnection);
+    // engine.loadFromModule("context", "Main");
 
     return QGuiApplication::exec();
 }
