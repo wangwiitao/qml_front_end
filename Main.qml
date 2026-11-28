@@ -18,56 +18,5 @@ ApplicationWindow {
     property color reallyLight: "#e7e7e7"
     property color light: "#e0e0e0"
 
-    FetchPosts {
-        id: fetcherId
-    }
-
-    ColumnLayout {
-        anchors.fill: parent
-        spacing: 0
-
-        ListView {
-            id: mListView
-            model: fetcherId.posts
-            delegate: Rectangle {
-
-                width: root.width
-                height: textId.implicitHeight + 30
-                color: "beige"
-                border.color: "yellowgreen"
-                radius: 5
-
-                Text {
-                    id: textId
-                    width: parent.width
-                    height: parent.height
-                    anchors.centerIn: parent
-                    text: modelData
-                    font.pointSize: 13
-                    wrapMode: Text.WordWrap
-                    verticalAlignment: Text.AlignVCenter
-                    horizontalAlignment: Text.AlignHCenter
-                }
-            }
-            Layout.fillHeight: true
-            Layout.fillWidth: true
-        }
-
-        Button {
-            id: button1Id
-            text: "Fetch"
-            Layout.fillWidth: true
-            onClicked: {
-                fetcherId.fetchPosts();
-            }
-        }
-        Button {
-            id: button2Id
-            text: "RemoveLast"
-            Layout.fillWidth: true
-            onClicked: {
-                fetcherId.removeLast();
-            }
-        }
-    }
+    
 }
